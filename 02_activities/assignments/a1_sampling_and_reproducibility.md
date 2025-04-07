@@ -10,10 +10,22 @@ Modify the number of repetitions in the simulation to 100 (from the original 100
 
 Alter the code so that it is reproducible. Describe the changes you made to the code and how they affected the reproducibility of the script file. The output does not need to match Whitby’s original blogpost/graphs, it just needs to produce the same output when run multiple times
 
-# Author: YOUR NAME
+# Author: Ariana Youm
 
 ```
-Please write your explanation here...
+Q: Identify all stages at which sampling is occurring in the model. 
+A: Sampling is occurring in three different stages: 1) the sampling of infected individuals, 2) the sampling for primary contact tracing, and 3) the sample for secondary contract tracing.
+
+Q: Describe in words the sampling procedure, referencing the functions used, sample size, sampling frame, any underlying distributions involved, and how these relate to the procedure outlined in the blog post.
+A: First, a random subset of people are affected with the np.random.choice(). Here, a subset of individuals who are infected is being determined by the "ATTACK_RATE", whcih is 10% of the total population. The code states that "replace=False", which means that an individual can only be infected once. This is a bit different from the article, where it says COVID tracing "systematically biased towards certain kinds of low-effort / high-payoff settings" and doesn't necessarily pick out of a random sample.
+Then, among the infected sample, we are randomly deciding which people get traced. This value is being determined by "TRACE_SUCCESS" probability which is 20%. This is similar in to the article in that the variation is also around 20%.
+Lastly, we are filtering based on event attendance. If there's enough infected people who attended this event (determined by the "SECONDARY_TRACE_THRESHOLD"), those who've they've been in contact with are also bring traced. This is a rule-based selection. THis leads to the assumption from the article that "under this model we’re very likely to overestimate the proportion of cases that result from [X event]."
+
+Q: Run the script multiple times and observe the outputted graphs. Comment on the reproducibility of the results.
+A: The results look pretty different each time and is not reproducible.
+
+Q: Describe the changes you made to the code and how they affected the reproducibility of the script file.
+A: Setting a random seed (random number generation for selecting infected people and for contract tracing) ensures that it's consistent each time I run the simulation. 
 
 ```
 
