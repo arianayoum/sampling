@@ -13,27 +13,11 @@ Select one of the scenarios below and design a survey to meet the need(s) outlin
 3.	Write a 5-10 question survey to address your chosen scenario below.
 
 ##### Scenarios
-1.	You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
-2.	You work for a Canadian national political party during a federal election. Throughout the campaign period, your party has seen relatively high approval ratings, but an opposing party is also polling favorably and may still have a chance to win the election. You are one month away from the election and you want to understand what voters want from your party and its leader in order to maintain your lead and eventually win the election.
-3.	You are a student researcher in the sociology department at the University of Toronto. You are working on a research project that concerns the relationship between music taste and age. This involves both comparisons between different people of different ages and comparisons of the same individual at different ages during their lifetime. You wish to understand to what extent age influences music taste, specifically as it relates to perceptions of popular music. Your results will be written into an academic paper that you hope to publish.
+1. You work in the Human Resources Department at a large tech company. Over the past few months, the company has been experiencing a high turnover rate across many of its departments, specifically within the entry- and lower-level positions. The company wishes to understand why this turnover is happening, and what changes need to occur to improve employee satisfaction.
 
 ### Part B - Survey Evaluation:
 
 For the **Canadian General Social Survey on Giving, Volunteering, and Participating, 2018 (cycle 33)**, conducted by Statistics Canada find any and all available documentation for the data gathered and identify and describe the survey features indicated below.
-
-1. Sample type
-2. Sample size
-3. Target population
-4. Sampling frame
-5. Survey mode(s) 
-6. Timeline
-7. Response rate
-8. Weights
-9. Data processing
-10. Cleaning, imputation, etc
-11. Sources of error
-12. Limitations, known biases, etc
-13. Link to documentation and any additional sources used
 
 
 # Your Changes
@@ -44,26 +28,32 @@ The number of your chosen topic: `#`
 
 Describe the purpose of your survey:
 ```
-write your answer here...
+The purpose of my survey is to understand why the turnover rate in this company is so high, especially within the entry- and lower-level positions. The end goal of my survey is to determine what changes need to occur to improve employee satisfication and retain employees.
+
 ```
 
 Describe your target population, sampling frame, sampling units, and observational units:
 ```
-write your answer here...
+My target population is entry- and lower-level position employees. My sampling frame will be the company's HR database. Each employee will be a sampling unit. I will use stratified sampling, dividing the employees by position level. 
 ```
 
 Your 5-10 question survey:
 ```
-1. write your question here...
-2. write your question here...
-3. write your question here...
-4. write your question here...
-5. write your question here...
-6. write your question here... (optional)
-7. write your question here... (optional)
-8. write your question here... (optional)
-9. write your question here... (optional)
-10. write your question here... (optional)
+Example survey:
+
+On a scale of 1 (low) to 10 (high), answer the following questions:
+
+1 - How satisfied are you in your current role? 
+
+2 - How well are your skills being utilized?
+
+3 - How much are you learning in the role?
+
+4 - How meaningful do you find your jon? 
+
+5 - Do you have actionable goals set in your role?
+
+6 - How supported do you feel in your current role?
 ```
 
 ## Part B - Survey Evaluation:
@@ -71,7 +61,19 @@ Your 5-10 question survey:
 Identify and describe survey features:
 
 ```
-write your answer here
+1. Sample type - cross-sectional
+2. Sample size - ~50 000 households
+3. Target population - all persons 15 years of age and older living in the ten provinces of Canada. It excludes full-time (residing for more than six months) residents of institutions.
+4. Sampling frame - landline and cell numbers from the Census
+5. Survey mode(s) - electronic questionnaire + telephone interview
+6. Timeline - Sep to Dec 2018
+7. Response rate - ~60%
+8. Weights - adjusted for non-responses
+9. Data processing - used external data to supplement and verify responses
+10. Cleaning, imputation, etc - income data was imputed and data was cleaned before release
+11. Sources of error - sampling error, non-sampling error (no responses, inaccurate responses, etc)
+12. Limitations, known biases, etc - exclusion of northern terrirories and indigenous erserves, non-response bias, language bias, volunteer-based 
+13. Link to documentation and any additional sources used - https://www23.statcan.gc.ca/imdb/p3Instr.pl?Function=getInstrumentList&Item_Id=1183690&UL=1V& 
 ```
 
 ## Rubric
